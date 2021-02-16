@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', (msg) => {
   if (msg.content === '!help') {
-    msg.channel.send('pong');
+    msg.channel.send('!help');
   }
 });
 
