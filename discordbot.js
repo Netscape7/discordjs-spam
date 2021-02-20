@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  if (msg.content === '!help') {
-    msg.channel.send('!help');
+  if (msg.content === '!status') {
+    msg.channel.send('!status');
   }
 });
 
