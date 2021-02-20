@@ -1,6 +1,6 @@
 {
-  "name": "hello-express",
-  "version": "0.0.1",
+  "name": "discordjs-spa,",
+  "version": "1.0",
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "discordbot.js",
   "scripts": {
@@ -12,14 +12,5 @@
   },
   "engines": {
     "node": "12.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  }
 }
