@@ -1,24 +1,25 @@
 {
-  "name": "discordjs-startup",
-  "version": "1.0.0",
-  "description": "discord.js on Heroku",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "discordbot.js",
   "scripts": {
-    "start": "node discordbot.js",
-    "lint": "eslint ."
+    "start": "node discordbot.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DiscordBotPortalJP/discordjs-startup.git"
-  },
-  "author": "Discord Bot Portal JP",
-  "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "discord.js": "^11.6.4"
   },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
-  }
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
