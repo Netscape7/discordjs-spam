@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  if (msg.content === '!status') {
-    msg.channel.send('!status');
+  if (msg.content === 'spam') {
+    msg.channel.send('spam');
   }
 });
 
